@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #1f497d;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .testmarquee {
+    overflow: hidden;
+  }
+  
+  .testmarquee p {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a10ef;
+    padding: 10px;
+  }
+  
+  .navleft {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navleft li {
+    margin: 0 10px;
+  }
+  
+  .navleft li.active a {
+    color: #1f497d;
+    font-weight: bold;
+  }
+  
+  .navleft li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .rightNav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: #1f497d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .btn-small {
+    font-size: 14px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  /* Main Section Styles */
+  .firstsection {
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    padding: 50px;
+  }
+  
+  .box-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .box-main img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .firstHalf {
+    width: 50%;
+  }
+  
+  .SecoundHalf {
+    width: 40%;
+    text-align: right;
+  }
+  
+  /* Slideshow Styles */
+  .slideshow {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .slideleft {
+    width: 70%;
+    margin-right: 20px;
+  }
+  
+  .slideright {
+    width: 30%;
+  }
+  
+  .slideleftdiv {
+    position: relative;
+  }
+  
+  .mySlides {
+    display: none;
+    animation: fadeEffect 1s;
+  }
+  
+  .numbertext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 16px;
+    background-color: #1f497d;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    color: #fff;
+  }
+  
+  /* Animation Styles */
+  @keyframes fadeEffect {
+    from {opacity: 0.4}
+    to {opacity: 1}
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #1f497d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

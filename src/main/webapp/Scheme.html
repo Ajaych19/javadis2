@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style/Style.css">
+   
+    <title>Disable people</title>
+</head>
+<body>
+    
+    
+    <header>
+        <div class="testmarquee" >
+            <marquee onmouseover="this.stop();" onmouseout="this.start();">
+            <p>Dr.Babu - 24x7 Toll-free Number 1800 599 0019</p>
+        </marquee>
+    </div>
+    </header>
+
+
+    <nav class="navbar background">
+        <ul class="navleft">
+            <div class="logo"><img src="img/logo.png" alt="logo" height=20></div>
+            <li class="active"> <a href="index.html">Home</a></li>
+            <li> <a href="Scheme.html">Scheme</a></li>
+            <li> <a href="About.html"> About</a></li>
+
+         <li> <a href="Services.html"> services</a></li>
+      
+                      
+      
+            <li> <a href="ContactUs.html">contactUs </a></li>
+        </ul>
+    
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-small">search</button>
+        </div>
+    </nav>
+
+     
+    <section class="background firstsection">
+        <box class="box-main">
+            <div class="firstHalf">
+             <img src="img/logo.png "alt="logo" >
+            </div>  
+
+            <div class="SecoundHalf">
+                <img src="img/amrit.png">
+                <img src="img/G20logo.png"width=120>
+            </div>  
+        </box>
+    </section>
+
+
+     
+    <div class="scheme">
+        <div class="col-md-3 what-news">
+          <h3 style="background-color:#1f497d;color:#fff">What's New<img src="https://disabilityaffairs.gov.in/content/image/new_red.gif" alt="newgif"></h3><input type="button" value="Start" onclick="document.getElementById('what-news').start();"><input type="button" value="Stop" onclick="document.getElementById('what-news').stop();">
+        
+            
+        <marquee id="what-news" direction="up" style="background-color:#f1f1f2;" height="340" scrolldelay="100" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
+        <ul>
+          <li> <a href="#home">Home</a></li>
+          <li> <a href="##Scheme">Scheme</a></li>
+          <li> 
+              <a href="#About "> About</a>
+            
+          </li>
+
+          <li> <a href="#services"> services</a></li>
+          
+          <li> <a href="#contact us">contactUs </a></li>
+         </ul>
+         
+        </marquee>
+
+    <hr>
+ <footer>
+<section>
+    <div>
+        <p class="text-centre">
+            Copyrights 2023.All right reserved by govt.india
+            Website Content Owned by Department of Empowerment of Persons with Disabilities,Ministry of Social Justice
+            Hosted by National Informatics Centre (NIC)
+        </p>
+    </div>
+    </section>
+  
+    </footer>
+  <hr>
+
+<script src="style/index.js">
+
+    </script>
+    
+<script src="style/form.js">
+  
+    </script>
+
+
+
+</body>
+</html>
