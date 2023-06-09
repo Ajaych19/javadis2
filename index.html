@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style/style.css">
+   
+  
+    <title>Disable people</title>
+</head>
+<body>
+     
+    <header>
+        <div class="testmarquee" >
+            <marquee onmouseover="this.stop();" onmouseout="this.start();">
+            <p>Dr.Babu - 24x7 Toll-free Number 1800 599 0019</p>
+        </marquee>
+    </div>
+    </header>
+
+
+    <nav class="navbar background">
+      <ul class="navleft">
+        <div class="logo"><img src="img/logo.png" alt="logo" height=20></div>
+        <li class="active"> <a href="index.html">Home</a></li>
+        <li> <a href="Scheme.html">Scheme</a></li>
+        <li> <a href="About.html"> About</a></li>
+    
+        <li class="dropdown">
+          <a href="#">Services</a>
+          <div class="dropdown-content">
+            <a href="#">Service 1</a>
+            <a href="#">Service 2</a>
+            <a href="#">Service 3</a>
+          </div>
+        </li>
+    
+        <li> <a href="ContactUs.html">contactUs </a></li>
+      </ul>
+    
+      <div class="rightNav">
+        <input type="text" name="search" id="search">
+        <button class="btn btn-small">search</button>
+      </div>
+    </nav>
+    
+     
+    <section class="background firstsection">
+        <box class="box-main">
+            <div class="firstHalf">
+             <img src="img/logo.png "alt="logo" >
+            </div>  
+
+            <div class="SecoundHalf">
+                <img src="img/amrit.png">
+                <img src="img/G20logo.png"width=120>
+            </div>  
+        </box>
+    </section>
+
+
+  
+<!------------------------------------------->
+<hr>
+        <div class="slideshow">
+    <box class="slideleft">
+      <div class="slideleftdiv">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="img/slide1.jpg" style="width:98%" >
+          <div class="text">Caption Text</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="img/slide2.jpg" style="width:90%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="img/slide3.jpg" style="width:90%">
+          <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="img/5.jpeg" style="width:90%">
+            <div class="text">Caption four</div>
+          </div>
+
+          <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img/6.jpeg" style="width:90%">
+          <div class="text">Caption five</div>
+        </div>
+      </div>
+
+     
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
+
+
+
+     
+       <div class="slideright">
+        <div class="col-md-3 what-news">
+          <h3 style="background-color:#1f497d;color:#fff">What's New<img src="https://disabilityaffairs.gov.in/content/image/new_red.gif" alt="newgif"></h3><input type="button" value="Start" onclick="document.getElementById('what-news').start();"><input type="button" value="Stop" onclick="document.getElementById('what-news').stop();">
+        
+            
+        <marquee id="what-news" direction="up" style="background-color:#f1f1f2;" height="220" scrolldelay="100" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
+        <ul>
+          <li> <a href="index.html">Home</a></li>
+          <li> <a href="Scheme.html">Scheme</a></li>
+          <li> 
+              <a href="About.html"> About</a>
+            
+          </li>
+
+          <li> <a href="Services.html"> services</a></li>
+          
+          <li> <a href="ContactUs.html">contactUs </a></li>
+         </ul>
+         
+        </marquee>
+         <!--<a href="content/page/what-news.php"  class="pull-right read-more">View All</a>-->
+         <a href="https://disabilityaffairs.gov.in/content/page/whats-new.php" class="pull-right read-more">View All</a> 
+            
+          <h3>Latest Tweets</h3><input type="button" value="Start" onclick="document.getElementById('twitter-icon').start();"><input type="button" value="Stop" onclick="document.getElementById('twitter-icon').stop();">
+        <marquee id="twitter-icon" direction="up" height="220" scrolldelay="100" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">  
+        <div class="twitter-timeline twitter-timeline-rendered" style="display: flex; max-width: 100%; margin-top: 0px; margin-bottom: 0px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" style="position: static; visibility: visible; width: 453px; height: 7467px; display: block; flex-grow: 1;" title="Twitter Timeline" src="https://syndication.twitter.com/srv/timeline-profile/screen-name/socialpwds?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbWl4ZWRfbWVkaWFfMTU4OTciOnsiYnVja2V0IjoidHJlYXRtZW50IiwidmVyc2lvbiI6bnVsbH0sInRmd19leHBlcmltZW50c19jb29raWVfZXhwaXJhdGlvbiI6eyJidWNrZXQiOjEyMDk2MDAsInZlcnNpb24iOm51bGx9LCJ0ZndfZHVwbGljYXRlX3NjcmliZXNfdG9fc2V0dGluZ3MiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3ZpZGVvX2hsc19keW5hbWljX21hbmlmZXN0c18xNTA4MiI6eyJidWNrZXQiOiJ0cnVlX2JpdHJhdGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2xlZ2FjeV90aW1lbGluZV9zdW5zZXQiOnsiYnVja2V0Ijp0cnVlLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X2VkaXRfZnJvbnRlbmQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfX0%3D&amp;frame=false&amp;hideBorder=false&amp;hideFooter=false&amp;hideHeader=false&amp;hideScrollBar=false&amp;lang=en&amp;origin=https%3A%2F%2Fdisabilityaffairs.gov.in%2Fcontent%2F&amp;sessionId=86f4dea8014dd4ff3bb96cf02e26f6ca6a2b40cd&amp;showHeader=true&amp;showReplies=false&amp;transparent=false&amp;widgetsVersion=aaf4084522e3a%3A1674595607486"></iframe></div> 
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                                 
+        </marquee>                                                                          
+           <a href="https://twitter.com/socialpwds" class="pull-right read-more">View All</a>
+       
+         </div>
+       </div>
+
+
+
+
+
+
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+        </box>
+      <br>
+     
+
+<!--
+!------------------------------------------------------
+
+    <hr>
+    <section class="contact">
+     <h3 class="text-centre">Contact </h3>
+     <div class="textbox">
+       <input type="text" name="name" id="name" placeholder="enter your name">
+        <input type="text" name="phone" id="phone"placeholder="enter your phone">
+        <input type="email" name="name" id="email"placeholder="enter your email">
+      <textarea class="textareaform" name="text" id="text">write your concern</textarea>
+        <button class="btn">submit</button>
+    </div>
+    </section>
+    -->
+
+
+    <hr>
+ <footer>
+<section>
+    <div>
+        <p class="text-centre">
+            Copyrights 2023.All right reserved by govt.india
+            Website Content Owned by Department of Empowerment of Persons with Disabilities,Ministry of Social Justice
+            Hosted by National Informatics Centre (NIC)
+        </p>
+    </div>
+    </section>
+  
+    </footer>
+  <hr>
+
+<script src="style/index.js">
+
+    </script>
+ 
+
+
+</body>
+</html>
